@@ -58,7 +58,8 @@
     },
     "renovate": {
         "extends": [
-            "config:base"
+            "config:base",
+            ":prHourlyLimitNone"
         ]
     }
 }
