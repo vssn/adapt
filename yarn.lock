@@ -2129,10 +2129,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/xmlbuilder@0.0.32":
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/@types/xmlbuilder/-/xmlbuilder-0.0.32.tgz#f3107c16a05311ed117af1051c061cfbd8178309"
-  integrity sha512-pYpeUBPFwOga4mkz9kpfua5dUBNUjPGiasg+O1HFYJpJy/NqQhnhm95NFMD9U1825AIrEVyWx0kvAKsV3+CZAA==
+"@types/xmlbuilder@0.0.35":
+  version "0.0.35"
+  resolved "https://registry.yarnpkg.com/@types/xmlbuilder/-/xmlbuilder-0.0.35.tgz#1e5b6289691647b48f23082ac743250557852a9c"
+  integrity sha512-wvt2XjZ4EHBScd/9Bx+OOnsOZxpiY25hWUocf2beEgAeE0AN1jXHKRoOvxg3g3Ob1eg2g/YbZ2UIwnLU+tXSSg==
 
 "@unboundedsystems/api-documenter@7.6.1-unb1":
   version "7.6.1-unb1"
