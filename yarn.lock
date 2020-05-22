@@ -4759,7 +4759,12 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
-eventemitter2@5.0.1, eventemitter2@^5.0.1:
+eventemitter2@6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.4.1.tgz#7fb2dd95f9f7c3c615e848d8a91a18a65feb51b3"
+  integrity sha512-x4TgZ3j6tfLGzAJ4MD7M7qTdAiDlfKdssgFENVpW0csJKdlXTpE27SWUDEDb5eNS/HBWQtiDFPKiO6oHokYDqg==
+
+eventemitter2@^5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-5.0.1.tgz#6197a095d5fb6b57e8942f6fd7eaad63a09c9452"
   integrity sha1-YZegldX7a1folC9v1+qtY6CclFI=
