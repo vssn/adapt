@@ -1,64 +1,67 @@
 {
-    "name": "adapt-root",
-    "description": "Monorepo for Unbounded Adapt",
-    "license": "Apache-2.0",
-    "homepage": "https://github.com/unboundedsystems/adapt#readme",
-    "author": "Unbounded Systems",
-    "contributors": [
-        {
-            "name": "Manish Vachharajani",
-            "email": "manishv@unbounded.systems",
-            "url": "https://twitter.com/mvachhar"
-        },
-        {
-            "name": "Mark Terrel",
-            "email": "mark@unbounded.systems",
-            "url": "https://twitter.com/mterrel"
-        }
-    ],
-    "repository": "unboundedsystems/adapt",
-    "bugs": {
-        "url": "https://gitlab.com/unboundedsystems/adapt/issues"
+  "name": "adapt-root",
+  "description": "Monorepo for Unbounded Adapt",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/unboundedsystems/adapt#readme",
+  "author": "Unbounded Systems",
+  "contributors": [
+    {
+      "name": "Manish Vachharajani",
+      "email": "manishv@unbounded.systems",
+      "url": "https://twitter.com/mvachhar"
     },
-    "private": true,
-    "workspaces": {
-        "packages": [
-            "core",
-            "cloud",
-            "cli",
-            "dom-parser",
-            "scripts",
-            "systemtest",
-            "testutils",
-            "utils"
-        ],
-        "nohoist": [
-            "**/@types/chai",
-            "**/@types/chai-as-promised"
-        ]
-    },
-    "devDependencies": {
-        "@unboundedsystems/api-documenter": "7.6.1-unb1",
-        "@unboundedsystems/api-extractor": "7.6.1-unb1",
-        "doctoc": "^1.4.0",
-        "lint-staged": "^9.2.1",
-        "markdown-clitest": "^0.5.1",
-        "nyc": "^13.3.0",
-        "semver": "^5.6.0",
-        "tslint": "^5.18.0",
-        "typescript": "3.4.5"
-    },
-    "resolutions": {
-        "@types/nock": "^10.0.3"
-    },
-    "scripts": {
-        "copyright-fix-staged": "lint-staged --config config/lint-staged-fix.json && printf \"\n\nYou may need to 'git add' any updated files.\n\n\"",
-        "precommit": "lint-staged --config config/lint-staged.json",
-        "prepublishOnly": "make build"
-    },
-    "renovate": {
-        "extends": [
-            "config:base"
-        ]
+    {
+      "name": "Mark Terrel",
+      "email": "mark@unbounded.systems",
+      "url": "https://twitter.com/mterrel"
     }
+  ],
+  "repository": "unboundedsystems/adapt",
+  "bugs": {
+    "url": "https://gitlab.com/unboundedsystems/adapt/issues"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "core",
+      "cloud",
+      "cli",
+      "dom-parser",
+      "scripts",
+      "systemtest",
+      "testutils",
+      "utils"
+    ],
+    "nohoist": [
+      "**/@types/chai",
+      "**/@types/chai-as-promised"
+    ]
+  },
+  "devDependencies": {
+    "@unboundedsystems/api-documenter": "7.6.1-unb1",
+    "@unboundedsystems/api-extractor": "7.6.1-unb1",
+    "doctoc": "^1.4.0",
+    "lint-staged": "^9.2.1",
+    "markdown-clitest": "^0.5.1",
+    "nyc": "^13.3.0",
+    "semver": "^5.6.0",
+    "tslint": "^5.18.0",
+    "typescript": "3.4.5"
+  },
+  "resolutions": {
+    "@types/nock": "^10.0.3"
+  },
+  "scripts": {
+    "copyright-fix-staged": "lint-staged --config config/lint-staged-fix.json && printf \"\n\nYou may need to 'git add' any updated files.\n\n\"",
+    "precommit": "lint-staged --config config/lint-staged.json",
+    "prepublishOnly": "make build"
+  },
+  "renovate": {
+    "extends": [
+      "config:base"
+    ]
+  },
+  "dependencies": {
+    "moment": "2.26.0"
+  }
 }
